@@ -1,0 +1,136 @@
+<html>
+    <header>
+        <title>Tutienda</title>
+
+        <!--Logo de la pagina-->
+
+        <div id="Logo">
+        <h2 class="titulo">Tutienda</h2>
+        <p class="sub-titulo">Lo que desees a un clic</p>
+        </div>
+
+        <!-- Menu de la pagina -->
+
+        <style type="text/css"> 
+
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+
+        #header{
+                margin:auto;
+                width:500px;
+                font-family: Arial, Helvetica, sans-serif;
+        }
+        ul, ol {
+            list-style: none;
+        }
+        
+        .nav li a {
+            background-color:#000;
+            color:#fff;
+            text-decoration: none;
+            padding: 10px 15px;
+            display:block;
+        }
+
+        .nav li a:hover {
+            background-color: #434343;
+        }
+
+        .nav > li {
+            float:left;
+        }
+        
+        .nav li ul {
+            display: none;
+            position: absolute;
+            min-width: 140px;
+        }
+
+
+        .nav li:hover > ul {
+            display:block
+        }
+
+        </style>
+    </header>
+    
+    <body>
+        
+    <div id="header">
+        
+        <ul class="nav"> 
+            
+            <li><a href="">Inicio</a>
+                
+                <ul>
+                     <li><a href="">Categoria 1</a></li>
+                     <li><a href="">Categoria 2</a></li>
+                     <li><a href="">Categoria 3</a></li>
+                     <li><a href="">Categoria 4</a></li>
+                </ul>
+
+            </li>
+
+            <li><a href="">Servicios</a>
+
+                <ul>
+                    <li><a href="">Categoria 1</a></li>
+                    <li><a href="">Categoria 2</a></li>
+                    <li><a href="">Categoria 3</a></li>
+                    <li><a href="">Categoria 4</a></li>
+               </ul>
+            
+            </li>
+
+            <li><a href="">Acerca de</a>
+            
+                <ul>
+                    <li><a href="">Categoria 1</a></li>
+                    <li><a href="">Categoria 2</a></li>
+                    <li><a href="">Categoria 3</a></li>
+                    <li><a href="">Categoria 4</a></li>
+               </ul>
+
+            </li>
+
+            <li><a href="">Contactos</a>
+            
+                <ul>
+                    <li><a href="">Categoria 1</a></li>
+                    <li><a href="">Categoria 2</a></li>
+                    <li><a href="">Categoria 3</a></li>
+                    <li><a href="">Categoria 4</a></li>
+               </ul>
+
+            </li>
+        </ul>
+        <br/>
+        <br/>
+        <hr/>
+        <fieldset>
+        <section id="categorias">
+            <section id="formulario">
+                <br />
+                <h2 class="titulo-contacto">Envíenos un mensaje</h2>
+                <div id="form">
+                    <form name="cotacto" method="POST" action="#">
+                        <label for="nombre">Nombre:</label><br>
+                        <input type="text" name="nombre" placeholder="Ingrese su nombre"><br>
+    
+                        <label for="correo">Email:</label><br>
+                        <input type="text" name="correo" placeholder="Ingrese su email"><br>
+    
+                        <label for="asunto">Asunto:</label><br>
+                        <input type="text" name="asunto" placeholder="Ingrese su asunto"><br>
+                        <label for="nombre">Mensaje</label><br>
+                        <textarea name="menaje" placeholder="Ingrese su mensaje"></textarea>
+                        <br>
+                        <hr>
+                        <input type="submit" name="enviar" class="enviar">
+                    </fieldset>
+                    </form>
+    </body>
+</html>
