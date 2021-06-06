@@ -1,0 +1,9 @@
+body {
+    background: black;
+}
+
+.caja {
+    margin: 8px;
+    padding: 8px;
+    background-color: blue;
+}
