@@ -1,9 +1,10 @@
 body {
-    background: black;
+    background: rgb(37, 37, 116);
+    color: blanchedalmond;
 }
 
 .caja {
     margin: 8px;
     padding: 8px;
-    background-color: blue;
+    background-color: #070a06;
 }
