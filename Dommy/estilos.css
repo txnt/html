@@ -1,10 +1,55 @@
 body {
-    background: rgb(37, 37, 116);
-    color: blanchedalmond;
+    background: whitesmoke;
+    color: black;
 }
 
 .caja {
     margin: 8px;
     padding: 8px;
-    background-color: #070a06;
+    background-color: #f0f1ef;
+    width: 800px;
+    height: ;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#header{
+        margin:auto;
+        width:500px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: ;
+        padding-left: 150px;
+}
+ul, ol {
+    list-style: none;
+}
+
+.nav li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color: #434343;
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+
+.nav li:hover > ul {
+    display:block
 }
